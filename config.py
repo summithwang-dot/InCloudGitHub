@@ -90,11 +90,6 @@ SENSITIVE_PATTERNS = [
     # Azure OpenAI
     r'AZURE_OPENAI_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
     r'AZURE_OPENAI_API_KEY[\s]*=[\s]*["\']?([a-zA-Z0-9_-]{20,})["\']?',
-
-    #aliyun
-    r'^r-[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)*\.redis\.rds\.aliyuncs\.com$',
-    r'^jdbc:mysql://[a-zA-Z0-9.-]+\.aliyuncs\.com(:\d+)?(/[a-zA-Z0-9_]+)?(\?[^\s]+)?$',
-    r'^https?:\/\/oss-cn-[a-zA-Z0-9-]+\.aliyuncs\.com(:\d+)?$',
 ]
 
 # GitHub搜索关键词
@@ -110,7 +105,6 @@ AI_SEARCH_KEYWORDS = [
     'sk-proj-',
     'OPENAI_API_KEY',
     'chatApiKey',
-    '.aliyuncs.com'
 ]
 
 # 要排除的文件扩展名
